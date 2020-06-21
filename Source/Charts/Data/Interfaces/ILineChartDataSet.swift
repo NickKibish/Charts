@@ -33,6 +33,10 @@ public protocol ILineChartDataSet: ILineRadarChartDataSet
     /// The radius of the drawn circles.
     var circleRadius: CGFloat { get set }
     
+    var isDrawLineWithGradientEnabled: Bool { get set }
+
+    var gradientPositions: [CGFloat]? { get set }
+    
     /// The hole radius of the drawn circles.
     var circleHoleRadius: CGFloat { get set }
     

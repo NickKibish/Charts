@@ -74,6 +74,10 @@ open class LineChartDataSet: LineRadarChartDataSet, ILineChartDataSet
     /// The hole radius of the drawn circles
     open var circleHoleRadius = CGFloat(4.0)
     
+    open var isDrawLineWithGradientEnabled = false
+
+    open var gradientPositions: [CGFloat]?
+    
     open var circleColors = [NSUIColor]()
     
     /// - Returns: The color at the given index of the DataSet's circle-color array.
